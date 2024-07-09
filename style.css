@@ -1,0 +1,86 @@
+body {
+    background-color: #000099;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 70pt;
+}
+h2.subtitle{
+    text-align: center;
+    font-size: 30pt;
+}
+a {
+    color: #33ccff;
+}
+p {
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+/* deprecated in favor of using CSS instead */
+/* marquee {
+    background-color: #990000;
+    font-size: 40pt;
+    color: #ffff00;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+/* 3 column portion */
+.column {
+    float: left;
+}
+.left {
+    width: 23.5%;
+    margin: 0.25%;
+    border: 0.5%;
+    border-style: double;
+    border-color: #00cc00;
+    background-color: #cc0099;
+}
+.middle {
+    width: 48.5%;
+    margin: 0.25%;
+    border: 0.5%;
+    border-style: double;
+    background-color: #000066;
+}
+.right {
+    width: 23.5%;
+    margin: 0.25%;
+    border: 0.5%;
+    border-style: double;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* column text */
+h3.columnheader {
+    font-size: 35pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1%;
+}
+h4.columnheader {
+    font-size: 25pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1%;
+    margin-top: 2%;
+    color: #e0ebeb;
+}
+ul.leftcolumn {
+    margin: 1%;
+    font-size: 20pt;
+}
+img.leftcolumn {
+    width: 55%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-color: #33ccff;
+    border-style: solid;
+}
