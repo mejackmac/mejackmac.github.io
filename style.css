@@ -52,6 +52,7 @@ p {
     margin: 0.25%;
     border: 0.5%;
     border-style: double;
+    background-color: #000000;
 }
 .row:after {
     content: "";
