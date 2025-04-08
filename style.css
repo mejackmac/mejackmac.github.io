@@ -1,32 +1,24 @@
 body {
-    background-color: #000099;
+    background-color: #120a26;
     color: #ffffff;
     font-family: sans-serif;
 }
 h1 {
     text-align: center;
-    font-size: 70pt;
+    font-size: 40pt;
 }
 h2.subtitle{
     text-align: center;
-    font-size: 30pt;
+    font-size: 20pt;
 }
 a {
     color: #33ccff;
 }
 p {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 16px;
     margin-left: 2%;
 }
-
-/* deprecated in favor of using CSS instead */
-/* marquee {
-    background-color: #990000;
-    font-size: 40pt;
-    color: #ffff00;
-    font-family: 'Times New Roman', Times, serif;
-} */
 
 /* 3 column portion */
 .column {
